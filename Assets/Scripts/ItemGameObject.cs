@@ -20,9 +20,6 @@ public class ItemGameObject : MonoBehaviour
 
         storage.TakeItem(item);
 
-        //item.pointToMove = pointToMove;
-        //item.nextParent = storage;
-
         return item;
     }
 
@@ -34,7 +31,7 @@ public class ItemGameObject : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, pointToMove, Time.deltaTime * 5);
         }
         else
-        if (Vector3.Distance(transform.position, pointToMove) < 0.5 && isMove)//&& transform.position != pointToMove 
+        if (Vector3.Distance(transform.position, pointToMove) < 0.5 && isMove)
         {
             transform.position = pointToMove;
 
