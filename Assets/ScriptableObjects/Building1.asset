@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3265527628704060399, guid: c801b7ec9b62b044c909f71c392f2c09, type: 3}
   product: {fileID: 11400000, guid: 270d7db5762586246af0ab7b9bad42f4, type: 2}
-  timeToProduct: 0.5
+  timeToProduct: 1
   needToProduction: []
